@@ -9,7 +9,7 @@ function capturar() {
         alert("correto!");
     }else{alert("errado, tente novamente")}
 }
-function capturar() {
+function capturar2() {
     let meme = document.getElementById('meme').value;
     if (meme == "TIPOS DE CARINHAS" || meme == "Tipos de carinhas" || meme == "tipos de carinhas"){
         alert("MEMES!!!");

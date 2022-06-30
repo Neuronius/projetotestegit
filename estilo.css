@@ -14,9 +14,22 @@ img{
     size: 50%;
 }
 
-button{
+.btn_padrao{
     margin-top: 30px;
     margin-bottom: 30px;
     width: 140px;
     height: 30px;
+}
+
+.btn_mudar_pag{
+    width: 250px;
+    height: 60px;
+    background-color: rgb(255, 79, 79);
+    font-size: 30px;
+    color: white;
+}
+
+audio{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
