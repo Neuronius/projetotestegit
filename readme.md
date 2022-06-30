@@ -1,2 +1,2 @@
 VAI TOMAR NO CU! =D
-japones safado!
+VAI TOMA NO CU
