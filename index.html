@@ -15,7 +15,11 @@
 </head>
 
 <body>
-    <div id="conteudo">
+
+    <button class="btn_modos" onclick="darkmode()">Modo Escuro</button>
+    <button class="btn_modos" onclick="whitemode()">Modo Claro</button>
+
+    <div class="conteudo">
     
         <h1>MORFÉTICO</h1>
         <p>"ai pai para" by leonardo games alicate</p>
@@ -29,9 +33,13 @@
             <button class="btn_padrao" type="submit" onclick="capturar()">Enviar</button>
         </form>
 
-        <audio autoplay="autoplay" controls="controls">
-            <source src="audioblu.mp3" type="audio/mp3"/>
-        </audio>
+        <div class="borda-fodida">
+            <h3 style="color: white;">Não escute o áudio abaixo</h3>
+            <audio autoplay="autoplay" controls="controls">
+                <source src="audioblu.mp3" type="audio/mp3"/>
+            </audio>
+        </div>
+        
 
     <div><img src="guru.avif" height="200%" alt=""></div>
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 8 8">

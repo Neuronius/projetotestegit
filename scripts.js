@@ -1,7 +1,3 @@
-//altera o titulo da pagina 1
-const titulo = document.querySelector('h1');
-titulo.textContent = 'Bluezão';
-
 //função para pegar o valor inserido no formulario do mamaco
 function capturar() {
     let campo = document.getElementById('campo').value;
@@ -16,4 +12,12 @@ function capturar2() {
     }else{alert("errado, dumb pra krll")}
 }
 
+function darkmode() {
+    document.body.style.backgroundColor = '#363636';
+    document.body.style.color = 'white';
+}
 
+function whitemode() {
+    document.body.style.backgroundColor = 'white';
+    document.body.style.color = 'black';
+}
