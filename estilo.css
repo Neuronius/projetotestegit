@@ -1,13 +1,28 @@
+*{
+    margin-top: 10px;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#conteudo{
+.conteudo{
     text-align: center;
 }
 
 img{
     size: 50%;
+}
+
+.btn_modos{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 160px;
+    height: 40px;
+    border-color: rgb(255, 0, 200);
+    background-color: rgb(255, 0, 200, 0.3);
 }
 
 .btn_padrao{
@@ -118,6 +133,7 @@ ul li:hover a{
 ul li:last-child::after{
     box-shadow: -120px 120px 20px rgba(0,0,0,0.25)
 }
+
 .carousel {
     margin-bottom: 4rem;
   }
@@ -138,3 +154,22 @@ ul li:last-child::after{
     min-width: 100%;
     height: 32rem;
   }
+ 
+ .margin-padrao{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.borda-fodida{
+    border: 3px solid rgb(255, 0, 200);
+    border-radius: 30px;
+    background-color: rgb(77, 0, 87);
+}
+
+#jaquin_gordo_fudido{
+    color: white;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
